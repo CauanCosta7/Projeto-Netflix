@@ -1,0 +1,86 @@
+body{margin: 0;
+background-image: linear-gradient(to bottom, #060606, #141414, #141414, #141414, #141414, #141414, #141414, #141414, #141414, #141414);
+background-repeat: no-repeat;
+position: relative;
+height: 636px;
+width: 100%;
+font-family: sans-serif;
+z-index: 1;}
+
+.div-box-principal{position: relative;
+top: 140px;
+height: 350px;
+width: 950px;
+left: 200px;}
+
+.titulo-pergunta{position: relative;
+color: white;
+font-size: 44px;
+font-family: sans-serif;
+font-weight: lighter;
+display: flex;
+justify-content: center;}
+
+.perfil{position: relative;
+height: 135px;
+width: 135px;}
+
+.perfil:hover .nome-perfil{color: white;}
+
+.div-nome-perfil{position: relative;
+bottom: 15px;
+z-index: 9999;
+font-size: 14px;
+text-align: center;}
+
+.div-perfis{position: relative;}
+
+.perfil-adicionar{position: relative;
+bottom: 50px;}
+
+.perfil-adicionar:hover{background-color: #9c9898;}
+
+.nome-perfil{font-size: 16px;
+color: #9c9898;
+padding-top: 10px;}
+
+.nome-perfil-add{position: relative;
+top: 49px;}
+
+.avatar{position: relative;
+height: 135px;
+width: 135px;
+border-radius: 5px;
+border: 3px solid transparent;}
+
+.avatar:hover{border: 3px solid #d1cdcd;}
+
+ul{text-decoration: none;}
+
+li{display: inline-block;
+padding-left: 27px;}
+
+.iconeplus{color: #5f5d5d;
+position: relative;
+font-size: 90px;
+left: 22px;
+top: 20px;}
+
+button{position: relative;
+height: 35px;
+width: 162px;
+font-size: 15px;
+background-color: transparent;
+color: #686666;
+border: 1.5px solid #686666;
+left: 390px;
+top: 65px;}
+
+button:hover{color: #d1cdcd;
+border: 1.5px solid #d1cdcd;
+transition: 0.5s;}
+
+a{text-decoration: none;
+color: #686666;;}
+
+a:hover{color: #d1cdcd;;}
