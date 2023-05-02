@@ -4,6 +4,7 @@
 <head>
     <title> Netflix </title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Cauan">
     <meta name="description" content="Olá, seja bem vindo a Netflix">
     <meta name="keywords" content="Netflix">
@@ -19,22 +20,25 @@
         <div class="div-fundo-filmes">
             <header>
                 <nav> <!-- PARTE DE CIMA DA PÁGINA --> <!-- PARTE DE CIMA DA PÁGINA --> <!-- PARTE DE CIMA DA PÁGINA -->
-                    <img  class="logo" src="imagens/logo.png" alt="netflix logo">
-                    <select class="seletor-idiomas" id="idiomas" name="idiomas">
-                        <option value="pt-br" selected> Português</option>
-                        <option value="en">Inglês</option>
-                        <option value="es">Espanhol</option>
-                    </select>
-                    <img class="icone-idiomas" src="imagens/icone.png">
-                    <button class="botao-entrar"> <a class="a-botao" href="#"> Entrar </a> </button>
+                    <img class="logo" src="imagens/logo.png" alt="netflix logo">
+                    <div class="div-nav-flex"> 
+                        <select class="seletor-idiomas" id="idiomas" name="idiomas">
+                            <option value="pt-br" selected> Português</option>
+                            <option value="en">Inglês</option>
+                            <option value="es">Espanhol</option>
+                        </select>
+                        <img class="icone-idiomas" src="imagens/icone.png">
+                        <button class="botao-entrar"> <a class="a-botao" href="#"> Entrar </a> </button>
+                    </div>
                 </nav>
             </header>
+
 
             <div class="div-texto-principal"> <!-- PARTE PRINCIPAL DA PÁGINA --> <!-- PARTE PRINCIPAL DA PÁGINA -->
                 <h1> Filmes, séries e muito mais, sem limites </h1>
                 <h2 class="h2-principal"> Assista onde quiser. Cancele quando quiser. </h2>
                 <p class="p-principal"> Quer assistir? Informe seu email para criar ou reiniciar sua assinatura. </p>
-                <input class="input-email" type="email"  required placeholder="Email">
+                <input class="input-email" type="email"  class="placeholder" required placeholder ="Email">
                 <button class="button-vamosla" type="submit"> <a class="a-botao" href="página 2/pagina2.html"> Vamos lá </a> </button>
             </div>
         </div>

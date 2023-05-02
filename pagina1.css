@@ -4,6 +4,92 @@ body{margin: 0;
 background-image: linear-gradient(to bottom, #0a0c1c, #0a0c1c, #0a0c1c, #00081D);
 font-family: sans-serif;}
 
+/* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ 
+
+
+@media screen and (max-width: 414px){
+    nav{height: 100px;
+    width: 414px;}
+
+    main .div-fundo-filmes{background-image: linear-gradient(to bottom right, #0a0c1c, #00021473, #00021400, #ffffff00), linear-gradient(to top, #0a0c1c, rgba(255, 255, 255, 0)), url(imagens/foto_principal414x970.png);
+    position: relative;
+    background-repeat: no-repeat;
+    height: 2200px;}
+
+    nav .logo{height: 130px;
+    width: 240px;
+    top: 1vh;}
+
+    nav .div-nav-flex{position: relative;
+    right: 400px;}
+
+    nav .seletor-idiomas{height: 70px;
+    width: 130px;
+    font-size: 0px;
+    position: relative;
+    bottom: 119px;
+    border-radius: 10px;}
+                
+    nav .icone-idiomas{position: relative;
+    height: 55px;
+    width: 55px;
+    padding-left: 55px;
+    bottom: 97px;}
+                
+    nav .botao-entrar{position: relative;
+    height: 70px;
+    width: 150px;
+    color: #ee000c;
+    bottom: 190px;
+    margin-left: 190px;
+    font-size: 30px;
+    border-radius: 10px;}
+
+/* RESPONSIVIDADE (PARTE PRINCIPAL)*/ /* RESPONSIVIDADE (PARTE PRINCIPAL)*/ /* RESPONSIVIDADE (PARTE PRINCIPAL)*/ /* RESPONSIVIDADE (PARTE PRINCIPAL)*/
+
+    main .div-texto-principal{position: relative;
+    top: 150px;}
+
+    .div-texto-principal h1{font-size: 90px;
+    max-width: 90%;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    position: relative;}
+
+    .div-texto-principal .h2-principal{font-size: 40px;
+        max-width: 80%;
+        text-shadow: 0.5px 0.5px 0.5px black;
+        position: relative;}
+
+    .div-texto-principal .p-principal{font-size: 40px;
+    max-width: 78%;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    position: relative;}
+
+    .div-texto-principal .input-email{position: relative;
+    height: 105px;
+    width: 70%;
+    font-size: 15px;
+    border-radius: 15px;
+    color: white;
+    font-size: 40px;
+    top: 15px;}
+
+    .div-texto-principal ::placeholder{
+    font-size: 40px;
+    position: relative;}
+
+    .div-texto-principal .button-vamosla{position: relative;
+    top: 60px;
+    height: 105px;
+    width: 30%;
+    font-size: 40px;
+}
+
+
+
+}
+
+
 /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ 
 /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ 
 /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ 
