@@ -1,3 +1,53 @@
 {
-    "title": "Películas, series y mucho más, sin límites"
+    "title": "Películas, series y mucho más, sin límites",
+    "h2Principal": "Mira donde quieras. Cancela cuando quieras.",
+    "pID": "¿Quiero ver? Ingrese su correo electrónico para crear o reiniciar su suscripción.",
+    "botaoID": "Entrar",
+    "botao2ID": "Vamos allá",
+
+    "titulovantagensID1":"Disfrutar en la televisión",
+    "subtitutlovantagensID1":"Mire en televisores inteligentes, PlayStation, Xbox, Chromecast, Apple TV, reproductores de Blu-ray y otros dispositivos.",
+
+    "titulovantagensID2":"Mira donde quieras",
+    "subtitutlovantagensID2":"Mira tantas películas y series como quieras en tu celular, tablet, laptop y TV.",
+
+    "titulovantagensID3":"Crear perfiles para niños",
+    "subtitutlovantagensID3":"Deja que los niños se aventuren con sus personajes favoritos en un espacio hecho a su medida, sin pagar extra por ello.",
+
+    "titulovantagensID4":"Descargar series para ver sin conexión",
+    "subtitutlovantagensID4":"Solo disponible en planes sin publicidad.",
+
+
+    "tituloPerguntasID":"Preguntas frecuentes",
+    "pergunta1ID":"¿Qué es Netflix?",
+    "pergunta2ID":"¿Cuánto cuesta Netflix?",
+    "pergunta3ID":"¿Dónde puedo mirar?",
+    "pergunta4ID":"¿Dónde cancelo?",
+    "pergunta5ID":"¿Qué puedo ver en Netflix?",
+    "pergunta6ID":"¿Netflix es apto para niños?",
+    "pComplementarID": "¿Quiero ver? Ingrese su correo electrónico para crear o reiniciar su suscripción..",
+
+    "duvidasID":"¿Dudas? Llame al 0800 123-4567",
+
+    "p1ID": "Preguntas frecuentes",
+    "p2ID": "Relación con inversores",
+    "p3ID": "Maneras de mirar",
+    "p4ID": "Información corporativa",
+    "p5ID": "Solo en Netflix",
+    "p6ID": "Centro de ayuda",
+    "p7ID": "Carreras",
+    "p8ID": "Terminos de uso",
+    "p9ID": "Contactos",
+    "p10ID": "Cuenta",
+    "p11ID": "Canjear tarjeta prepago",
+    "p12ID": "Privacidad",
+    "p13ID": "Prueba de velocidad",
+    "p14ID": "Centro de Mediosr",
+    "p15ID": "Comprar tarjeta prepago",
+    "p16ID": "Preferencias de cookies",
+    "p17ID": "Avisos legales",
+
+    "pFinalID": "Netflix ES",
+
+    "copyrightID": "Copyright © 2023 - Desarrollado por Cauan S. Costa"
 }

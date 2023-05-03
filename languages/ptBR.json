@@ -1,3 +1,53 @@
 {
-    "title": "Filmes, séries e muito mais, sem limites"
+    "title": "Filmes, séries e muito mais, sem limites",
+    "h2Principal": "Assista onde quiser. Cancele quando quiser.",
+    "pID": "Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.",
+    "botaoID": "Entrar",
+    "botao2ID": "Vamos lá",
+
+    "titulovantagensID1":"Aproveite na TV",
+    "subtitutlovantagensID1":"Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, aparelhos de Blu-ray e outros dispositivos.",
+
+    "titulovantagensID2":"Assista onde quiser",
+    "subtitutlovantagensID2":"Assista a quantos filmes e séries quiser no celular, tablet, laptop e TV.",
+
+    "titulovantagensID3":"Crie perfis para crianças",
+    "subtitutlovantagensID3":"Deixe as crianças se aventurarem com seus personagens favoritos em um espaço feito só para elas, sem pagar a mais por isso.",
+
+    "titulovantagensID4":"Baixe séries para assistir offline",
+    "subtitutlovantagensID4":"Disponíveis somente em planos sem anúncios.",
+
+
+    "tituloPerguntasID":"Perguntas frequentes",
+    "pergunta1ID":"O que é a Netflix?",
+    "pergunta2ID":"Quanto Custa a Netflix?",
+    "pergunta3ID":"Onde posso assistir?",
+    "pergunta4ID":"Onde faço para cancelar?",
+    "pergunta5ID":"O que eu posso assistir na Netflix?",
+    "pergunta6ID":"A Netflix é adequada para crianças?",
+    "pComplementarID": "Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.",
+
+    "duvidasID":"Dúvidas? Ligue 0800 123-4567",
+
+    "p1ID": "Perguntas frequentes",
+    "p2ID": "Relações com investidores",
+    "p3ID": "Formas de assistir",
+    "p4ID": "Informações corporativas",
+    "p5ID": "Só na Netflix",
+    "p6ID": "Central de Ajuda",
+    "p7ID": "Carreiras",
+    "p8ID": "Termos de Uso",
+    "p9ID": "Entre em contato",
+    "p10ID": "Conta",
+    "p11ID": "Resgatar cartão pré-pago",
+    "p12ID": "Privacidade",
+    "p13ID": "Teste de velocidade",
+    "p14ID": "Media Center",
+    "p15ID": "Comprar cartão pré-pago",
+    "p16ID": "Preferências de cookies",
+    "p17ID": "Avisos legais",
+
+    "pFinalID": "Netflix Brasil",
+
+    "copyrightID": "Copyright © 2023 - Desenvolvido por Cauan S. Costa"
 }

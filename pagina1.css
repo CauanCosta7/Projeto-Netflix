@@ -8,6 +8,9 @@ font-family: sans-serif;}
 
 
 @media screen and (max-width: 414px){
+    html{overflow-y: hidden;
+        overflow-x: hidden;}
+    
     nav{height: 100px;
     width: 414px;}
 
@@ -21,7 +24,8 @@ font-family: sans-serif;}
     top: 1vh;}
 
     nav .div-nav-flex{position: relative;
-    right: 400px;}
+    right: 400px;
+    top: 20px;}
 
     nav .seletor-idiomas{height: 70px;
     width: 130px;

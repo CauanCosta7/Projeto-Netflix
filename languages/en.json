@@ -1,3 +1,53 @@
 {
-    "title": "Movies, series and much more, without limits"
+    "title": "Movies, series and much more, without limits",
+    "h2Principal": "Watch wherever you want. Cancel whenever you want.",
+    "pID": "Want to watch? Enter your email to create or restart your subscription.",
+    "botaoID": "Get in",
+    "botao2ID": "Let's go",
+
+    "titulovantagensID1":"Enjoy on TV",
+    "subtitutlovantagensID1":"Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and other devices.",
+
+    "titulovantagensID2":"Watch wherever you want",
+    "subtitutlovantagensID2":"Watch as many movies and series as you want on your cell phone, tablet, laptop and TV.",
+
+    "titulovantagensID3":"Create profiles for kids",
+    "subtitutlovantagensID3":"Let the kids adventure with their favorite characters in a space made just for them, without paying extra for it.",
+
+    "titulovantagensID4":"Download series to watch offline",
+    "subtitutlovantagensID4":"Only available on ad-free plans.",
+
+
+    "tituloPerguntasID":"Common questions",
+    "pergunta1ID":"What is Netflix?",
+    "pergunta2ID":"How Much Does Netflix Cost?",
+    "pergunta3ID":"Where can I watch?",
+    "pergunta4ID":"Where do I cancel?",
+    "pergunta5ID":"What can I watch on Netflix?",
+    "pergunta6ID":"Is Netflix suitable for children?",
+    "pComplementarID": "Want to watch? Enter your email to create or restart your subscription.",
+
+    "duvidasID":"Doubts? Call 0800 123-4567",
+
+    "p1ID": "Common questions",
+    "p2ID": "Relationship with investors",
+    "p3ID": "Ways to watch",
+    "p4ID": "Corporate information",
+    "p5ID": "Only on Netflix",
+    "p6ID": "Help Center",
+    "p7ID": "Careers",
+    "p8ID": "Terms of use",
+    "p9ID": "Contact",
+    "p10ID": "Account",
+    "p11ID": "Redeem prepaid card",
+    "p12ID": "Privacy",
+    "p13ID": "Speed ​​test",
+    "p14ID": "Media Center",
+    "p15ID": "Buy prepaid card",
+    "p16ID": "Cookie Preferences",
+    "p17ID": "Legal Notices",
+
+    "pFinalID": "Netflix US",
+
+    "copyrightID": "Copyright © 2023 - Developed by Cauan S. Costa"
 }
