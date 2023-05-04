@@ -1,3 +1,19 @@
+/* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/
+/* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/
+/* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/ /* RESPONSIVIDADE 1024px*/
+
+@media screen and (max-width: 1024px){
+    body{
+    position: relative;
+    right: 150px;}
+
+    body .div-seta{
+        position: relative;
+        left: -20px;}
+}
+
+/* FIM DA RESPONSIVIDADE 1024px*/ /* FIM DA RESPONSIVIDADE 1024px*/ /* FIM DA RESPONSIVIDADE 1024px*/ /* FIM DA RESPONSIVIDADE 1024px*/
+
 body{
     margin: 0;
     background-image: linear-gradient(to bottom, #060606, #141414, #141414, #141414, #141414, #141414, #141414, #141414, #141414, #141414);

@@ -5,105 +5,123 @@ body{
     background-image: linear-gradient(to bottom, #0a0c1c, #0a0c1c, #0a0c1c, #00081D);
     font-family: sans-serif;}
 
-/* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ /* RESPONSIVIDADE (TESTE)*/ 
+/* RESPONSIVIDADE - NAV(1024px LAPTOP)*/ /* RESPONSIVIDADE - NAV(1024px LAPTOP)*/ /* RESPONSIVIDADE - NAV(1024px LAPTOP)*/
 
-
-@media screen and (max-width: 414px){
+@media screen and (max-width: 1024px){
     html{
-    overflow-y: hidden;
     overflow-x: hidden;}
-    
-    nav{
-    height: 100px;
-    width: 414px;}
 
-    main .div-fundo-filmes{
-    background-image: linear-gradient(to bottom right, #0a0c1c, #00021473, #00021400, #ffffff00), linear-gradient(to top, #0a0c1c, rgba(255, 255, 255, 0)), url(imagens/foto_principal414x970.png);
+nav .div-nav-flex{
     position: relative;
-    background-repeat: no-repeat;
-    height: 2200px;}
+    right: 320px;}
 
-    nav .logo{
-    height: 130px;
-    width: 240px;
-    top: 1vh;}
 
-    nav .div-nav-flex{
-    position: relative;
-    right: 400px;
-    top: 20px;}
-
-    nav .seletor-idiomas{
-    height: 70px;
-    width: 130px;
-    font-size: 0px;
-    position: relative;
-    bottom: 119px;
-    border-radius: 10px;}
-                
-    nav .icone-idiomas{
-    position: relative;
-    height: 55px;
-    width: 55px;
-    padding-left: 55px;
-    bottom: 97px;}
-                
-    nav .botao-entrar{
-    position: relative;
-    height: 70px;
-    width: 150px;
-    color: #ee000c;
-    bottom: 190px;
-    margin-left: 190px;
-    font-size: 30px;
-    border-radius: 10px;}
-
-/* RESPONSIVIDADE (PARTE PRINCIPAL)*/ /* RESPONSIVIDADE (PARTE PRINCIPAL)*/ /* RESPONSIVIDADE (PARTE PRINCIPAL)*/ /* RESPONSIVIDADE (PARTE PRINCIPAL)*/
+/* RESPONSIVIDADE - PARTE PRINCIPAL (1024px LAPTOP) */  /* RESPONSIVIDADE - PARTE PRINCIPAL (1024px LAPTOP) */  /* RESPONSIVIDADE - PARTE PRINCIPAL (1024px LAPTOP) */ 
 
     main .div-texto-principal{
-    position: relative;
-    top: 150px;}
+        position: relative;
+        bottom: 900px;
+    }
 
     .div-texto-principal h1{
-    font-size: 90px;
-    max-width: 90%;
-    text-shadow: 0.5px 0.5px 0.5px black;
-    position: relative;}
+        position: relative;
+        font-size: 50px;
+        max-width: 70%;
+        bottom: 50px;
+    }
 
-.div-texto-principal .h2-principal{
-    font-size: 40px;
-    max-width: 80%;
-    text-shadow: 0.5px 0.5px 0.5px black;
-    position: relative;}
+    .div-texto-principal .h2-principal{
+        position: relative;
+        font-size: 18px;
+        bottom: 60px;}
 
-.div-texto-principal .p-principal{
-    font-size: 40px;
-    max-width: 78%;
-    text-shadow: 0.5px 0.5px 0.5px black;
-    position: relative;}
+    .div-texto-principal .p-principal{
+        position: relative;
+        font-size: 20px;
+        top: -70px;}
 
-.div-texto-principal .input-email{
-    position: relative;
-    height: 105px;
-    width: 70%;
-    font-size: 15px;
-    border-radius: 15px;
-    color: white;
-    font-size: 40px;
-    top: 15px;}
+    .div-texto-principal .input-email{
+        position: relative;
+        bottom: 70px;}
 
-.div-texto-principal ::placeholder{
-    font-size: 40px;
-    position: relative;}
+    .div-texto-principal .button-vamosla1{
+        position: relative;
+        left: 440px;
+        bottom: 108px;
+    }
 
-.div-texto-principal .button-vamosla{
-    position: relative;
-    top: 60px;
-    height: 105px;
-    width: 30%;
-    font-size: 40px;
-}
+/* RESPONSIVIDADE - VANTAGENS (1024px LAPTOP)*/ /* RESPONSIVIDADE - VANTAGENS (1024px LAPTOP)*/ /* RESPONSIVIDADE - VANTAGENS (1024px LAPTOP)*/
 
+    .div-parte-secundaria .div-box-vantagens{
+        position: relative;
+        width: 470px;
+        height: 325px;
+        right: 60px;
+        bottom: 100px;
+        border-radius: 15px;
+        margin-bottom: 10px;}
+
+    .div-parte-secundaria .v3{
+        position: relative;
+        top: -100px;}
+
+
+/* RESPONSIVIDADE - PERGUNTAS (1024px LAPTOP)*/ /* RESPONSIVIDADE - PERGUNTAS (1024px LAPTOP)*//* RESPONSIVIDADE - PERGUNTAS (1024px LAPTOP)*/
+
+    .div-parte-terciaria{
+        position: relative;
+        top: 125px;}
+
+    .div-parte-terciaria .div-box-perguntas{
+        position: relative;
+        width: 850px;}
+
+    .div-parte-terciaria .titulo-perguntas{
+        color: rgba(255, 255, 255, 0.801);}
+
+/* RESPONSIVIDADE - RODAPE(1024px LAPTOP)*/ /* RESPONSIVIDADE - RODAPE(1024px LAPTOP)*/ /* RESPONSIVIDADE - RODAPE(1024px LAPTOP)*/
+
+    .rodape{
+        position: relative;
+        top: 125px;
+        height: 1600px;
+        background-color: #050A1C;}
+
+    .rodape .p14ID{
+        position: relative;
+        left: 337px;
+        bottom: 17px;}
+
+    .rodape .p15ID{
+        position: relative;
+        left: 600px;
+        bottom: 48px;}
+
+    .rodape .p16ID{
+        position: relative;
+        bottom: 50px;}
+
+    .rodape .p17ID{
+        position: relative;
+        left: 337px;
+        bottom: 84px;}
+
+    .rodape .seletor-rodape{
+        position: relative;
+        top: -7px;}
+
+    .rodape .icone-footer{
+        position: relative;
+        top: -1px;}
+
+    .rodape .p-final{
+        position: relative;
+        top: -1px;}
+
+    .div-copyright{
+        position: relative;
+        right: 150px;
+        width: 150%;}
 }
 
 
@@ -112,7 +130,7 @@ body{
 /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ /* NAV */ 
 
 .div-fundo-filmes{
-    background-image: linear-gradient(to right, #0a0c1c, #0a0c1cb4, #ffffff00), linear-gradient(to top, #0a0c1c, rgba(255, 255, 255, 0)), url(imagens/foto_principal.jpg); 
+    background-image: linear-gradient(to right, #0a0c1ce7, #0a0c1c7e, #ffffff00), linear-gradient(to top, #0a0c1c, rgba(255, 255, 255, 0)), url(imagens/foto_principal.jpg); 
     height: 765px;
     width: 1345px;
     background-repeat: no-repeat;}
@@ -215,16 +233,17 @@ h1{
     color: #B4B4AF;}
 
 
-.button-vamosla{
+.button-vamosla1{
     position: relative;
-    width: 172px;
+    width: 200px;
     height: 52px;
     border-radius: 5px;
     background-color: #C11119;
     border-radius: 5px;
     border: none;
     font-weight: bold;
-    left: 5px;
+    left: 435px;
+    bottom: 38px;
     padding: 19px 25px;}
 
 .button-vamosla:hover{background-color: #ac0d15;}
@@ -247,7 +266,7 @@ h1{
     width: 306px;
     right: 45px;
     bottom: 15px;
-    background-image: linear-gradient(to top left, #520D38, #170F48);
+    background-image: linear-gradient(to bottom right, #520D38, #170F48);
     border-radius: 5px;}
 
 .ul-div-secundaria{
@@ -330,6 +349,17 @@ h1{
     position: relative;
     font-size: 1.25rem;
     color: white;}
+
+.button-vamosla2{
+    position: relative;
+    left: 10px;
+    top: -1px;
+    background-color: rgb(206, 9, 9);
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-weight: bold;}
+
+.button-vamosla2:hover{background-color: #ac0d15;}
 
 /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ 
 /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ /* PARTE QUARTENÁRIA (RODAPÉ) */ 
