@@ -7,6 +7,10 @@ body{
 
 /* RESPONSIVIDADE - NAV(1024px LAPTOP)*/ /* RESPONSIVIDADE - NAV(1024px LAPTOP)*/ /* RESPONSIVIDADE - NAV(1024px LAPTOP)*/
 
+.container{
+    width: 100%;
+}
+
 @media screen and (max-width: 1024px){
     html{
     overflow-x: hidden;}
@@ -132,7 +136,7 @@ nav .div-nav-flex{
 .div-fundo-filmes{
     background-image: linear-gradient(to right, #0a0c1ce7, #0a0c1c7e, #ffffff00), linear-gradient(to top, #0a0c1c, rgba(255, 255, 255, 0)), url(imagens/foto_principal.jpg); 
     height: 765px;
-    width: 1345px;
+    width: 100%;
     background-repeat: no-repeat;}
 
 .logo{
